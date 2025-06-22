@@ -22,13 +22,13 @@ UPDATE orders
 -- 4. Drop exact duplicates (keeping the first)
 DELETE FROM orders a
 USING (
-  SELECT MIN(ctid) AS keep_ctid, *
+  SELECT MIN(ctid) as keep_ctid, "Order ID"
   FROM orders
-  GROUP BY *
+  GROUP BY "Order ID"
   HAVING COUNT(*) > 1
 ) dup
-WHERE a.ctid <> dup.keep_ctid
-  AND a."Order ID" = dup."Order ID";
+WHERE a."Order ID" = dup."Order ID"
+AND a.ctid <> dup.keep_ctid;
 
 -- 5. (Optional) Flag negative profits for manual review
 UPDATE orders
