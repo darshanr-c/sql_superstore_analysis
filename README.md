@@ -1,10 +1,9 @@
 # Superstore Sales Analysis (SQL + Python)
-
 This project analyzes Global Superstore retail data using **SQL (PostgreSQL)** and **Python**.
 
 > 🚀 Tools: PostgreSQL · SQL · Python · Pandas · Seaborn · VS Code
-
 ---
+
 ## 📁 Project Structure
 
 - `data/` → Contains the raw CSV file
@@ -49,6 +48,7 @@ This project analyzes Global Superstore retail data using **SQL (PostgreSQL)** a
 
 ### 2. Which customers frequently buy from more than one category?
 ![Custmore purchase multiple categories](visuals/Multiple_cat_customers.png)
+
 ---
 
 ### 3. 🔁 First-Time vs Repeat Customers (Profit Comparison) 
@@ -68,6 +68,18 @@ This project analyzes Global Superstore retail data using **SQL (PostgreSQL)** a
 *How does shipping mode affect order performance?*
 
 ![Shipping Mode](visuals/Ship_mode_vs_Avg_profit.png)
+
+---
+
+## 🔍 Summary of Insights
+
+| Business Area           | Insight Example                                                   |
+|-------------------------|-------------------------------------------------------------------|
+| Regional Performance    | Central & West regions are leading in profit                     |
+| Customer Behavior       | Repeat customers guves higher avg. profit                        |
+| Product Strategy        | Some high-selling products have less profitability               |
+| Discount Optimization   | Certain cities have high discounts but low returns               |
+| Logistics & Delivery    | Standard shipping is most used, but not always most profitable   |
 
 ---
 
@@ -91,15 +103,14 @@ This project analyzes Global Superstore retail data using **SQL (PostgreSQL)** a
 
 ---
 
-## 🔍 Summary of Insights
+## 🧰 Environment
 
-| Business Area           | Insight Example                                                   |
-|-------------------------|-------------------------------------------------------------------|
-| Regional Performance    | Central & West regions are leading in profit                     |
-| Customer Behavior       | Repeat customers guves higher avg. profit                        |
-| Product Strategy        | Some high-selling products have less profitability               |
-| Discount Optimization   | Certain cities have high discounts but low returns               |
-| Logistics & Delivery    | Standard shipping is most used, but not always most profitable   |
+- PostgreSQL 14+ installed locally
+- SQL queries run using:
+  - VS Code + PostgreSQL extension (recommended)
+  - Or DBeaver / psql CLI
+- Python 3.9+ with the following libraries:
+  - pandas, sqlalchemy, psycopg2-binary, seaborn, matplotlib
 
 ---
 
