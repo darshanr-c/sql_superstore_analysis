@@ -63,7 +63,7 @@ sql_superstore_analysis/
 ### 5. 🚚 Profit vs Sales by Shipping Mode
 *How does shipping mode affect order performance?*
 
-![Shipping Mode](visuals/ship_mode_vs_Avg_profit.png)
+![Shipping Mode](visuals/Ship_mode_vs_Avg_profit.png)
 
 ---
 
