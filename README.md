@@ -5,7 +5,20 @@ This project analyzes Global Superstore retail data using **SQL (PostgreSQL)** a
 > 🚀 Tools: PostgreSQL · SQL · Python · Pandas · Seaborn · VS Code
 
 ---
-<pre> ## 📁 Project Structure ``` sql_superstore_analysis/ ├── data/ # Raw dataset │ └── superstore_raw.csv │ ├── scripts/ # Python & SQL logic │ ├── load_to_db.py # Load CSV into PostgreSQL │ ├── data_cleaning.sql # SQL cleaning steps │ ├── business_insights.sql # SQL business questions │ └── visualization1.py # Generate seaborn charts │ ├── visuals/ # Charts for GitHub showcase │ ├── profit_by_region_pie.png │ ├── category_diversity_customers.png │ ├── customer_type_profit.png │ ├── risky_discount_cities.png │ └── shipping_mode_avg_profit_sales.png │ ├── notebooks/ # Optional Jupyter notebook │ └── load_to_db.ipynb │ ├── cleaning_log.md # Step-by-step cleaning log ├── requirements.txt # Python packages used └── README.md # Project overview and output ``` </pre>
+## 📁 Project Structure
+
+- `data/` → Contains the raw CSV file
+- `scripts/` → Python & SQL files
+  - `load_to_db.py` → Loads data into PostgreSQL
+  - `data_cleaning.sql` → Cleans the dataset
+  - `business_insights.sql` → Insight-generating SQL
+  - `visualization1.py` → Generates charts
+- `visuals/` → Output images and charts
+- `notebooks/` → Optional Jupyter notebooks
+- `cleaning_log.md` → Cleaning steps documentation
+- `requirements.txt` → Python dependencies
+- `README.md` → Project documentation
+
 ---
 
 ## 📊 Project Objectives
