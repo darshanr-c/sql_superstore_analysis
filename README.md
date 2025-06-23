@@ -8,14 +8,28 @@ This project analyzes Global Superstore retail data using **SQL (PostgreSQL)** a
 
 ## 📂 Project Structure
 sql_superstore_analysis/
-├── data/ # Raw dataset
-├── scripts/ # SQL and Python scripts
-├── notebooks/ # Optional Jupyter exploration
-├── visuals/ # Final charts and output images
-├── cleaning_log.md # SQL cleaning actions log
-├── requirements.txt
-└── README.md
-
+├── data/ 
+│ └── superstore_raw.csv
+│
+├── scripts/ # Python & SQL logic
+│ ├── load_to_db.py # Load CSV into PostgreSQL
+│ ├── data_cleaning.sql # SQL cleaning steps
+│ ├── business_insights.sql # SQL business questions
+│ └── visualization1.py # Generate seaborn charts
+│
+├── visuals/ # Charts for GitHub showcase
+│ ├── profit_by_region_pie.png
+│ ├── category_diversity_customers.png
+│ ├── customer_type_profit.png
+│ ├── risky_discount_cities.png
+│ └── shipping_mode_avg_profit_sales.png
+│
+├── notebooks/ # Optional Jupyter notebook to load data into database
+│ └── load_to_db.ipynb
+│
+├── cleaning_log.md # Step-by-step cleaning log
+├── requirements.txt # Python packages used
+└── README.md # Project overview and output
 ---
 
 ## 📊 Project Objectives
@@ -45,7 +59,7 @@ sql_superstore_analysis/
 ---
 
 ### 2. Which customers frequently buy from more than one category?
-
+![Custmore purchase multiple categories](visuals/Multiple_cat_customers.png)
 ---
 
 ### 3. 🔁 First-Time vs Repeat Customers (Profit Comparison) 
@@ -57,13 +71,14 @@ sql_superstore_analysis/
 
 ### 4. ⚠️ Cities with High Discounts but Low Profits  
 *Where are we giving too much discount but getting low returns?*
+![High Discount Low Profit Cities](visuals/High_discount_low_profit_cities.png)
 
 ---
 
 ### 5. 🚚 Profit vs Sales by Shipping Mode
 *How does shipping mode affect order performance?*
 
-![Shipping Mode](visuals/Ship_mode_vs_Avg_profit.png)
+![Shipping Mode](visuals/ship_mode_vs_Avg_profit.png)
 
 ---
 
