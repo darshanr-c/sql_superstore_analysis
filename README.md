@@ -6,7 +6,7 @@ This project analyzes Global Superstore retail data using **SQL (PostgreSQL)** a
 
 ---
 
-## 📂 Project Structure
+## 📂 Project Structure?
    sql_superstore_analysis/
    ├── data/ 
    │ └── superstore_raw.csv
@@ -30,6 +30,7 @@ This project analyzes Global Superstore retail data using **SQL (PostgreSQL)** a
    ├── cleaning_log.md # Step-by-step cleaning log
    ├── requirements.txt # Python packages used
    └── README.md # Project overview and output
+
 ---
 
 ## 📊 Project Objectives
@@ -78,7 +79,7 @@ This project analyzes Global Superstore retail data using **SQL (PostgreSQL)** a
 ### 5. 🚚 Profit vs Sales by Shipping Mode
 *How does shipping mode affect order performance?*
 
-![Shipping Mode](visuals/ship_mode_vs_Avg_profit.png)
+![Shipping Mode](visuals/Ship_mode_vs_Avg_profit.png)
 
 ---
 
