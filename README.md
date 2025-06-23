@@ -7,7 +7,7 @@ This project analyzes Global Superstore retail data using **SQL (PostgreSQL)** a
 ---
 
 ## 📂 Project Structure
-   sql_superstore_analysis
+> sql_superstore_analysis
    ├── data
    │ └── superstore_raw.csv
    │
@@ -30,7 +30,6 @@ This project analyzes Global Superstore retail data using **SQL (PostgreSQL)** a
    ├── cleaning_log.md # Step-by-step cleaning log
    ├── requirements.txt # Python packages used
    └── README.md # Project overview and output
-
 ---
 
 ## 📊 Project Objectives
